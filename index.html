@@ -13,19 +13,46 @@
         }
 
         [class^="container"]{
+            padding-top:10px;
             min-height: 150px;
-            background-color: orange;
+            background-color: transparent;
         }
         [class^="row"]{
-            background-color: blue;
-            min-height: 200px
-            display: flex;
+            background-color: transparent(99, 98, 98);
             align-items: flex-start;
             
         }
         [class^="col"]{
             background-color: red;
             min-height: 120px;
+        }
+        .col-1{
+            width:300px;
+            background-color: transparent;
+        }
+        .col-1a{
+            background-color: rgb(63, 63, 63);
+        }
+        .col-2{
+            background-color: rgb(13, 138, 196);
+        }
+        .col-2a{
+            background-color: green;
+        }
+        .col-2b{
+            background-color: red;
+        }
+        .col-3{
+            background-color: aqua;
+        }
+        .col-3a{
+            background-color: yellow;
+        }
+        .col-3b{
+            background-color: black;
+        }
+        .col-3c{
+            background-color: transparent;
         }
     </style>
     </head>
@@ -36,22 +63,22 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2">
                 <div class="col-1"></div>
-                <div class="col-2"></div>
+                <div class="col-1a"></div>
             </div>
         </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-3">
-                <div class="col-1"></div>
                 <div class="col-2"></div>
-                <div class="col-3"></div>
+                <div class="col-2a"></div>
+                <div class="col-2b"></div>
             </div>
         </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-4">
-                <div class="col-1"></div>
-                <div class="col-2"></div>
                 <div class="col-3"></div>
-                <div class="col-4"></div>
+                <div class="col-3a"></div>
+                <div class="col-3b"></div>
+                <div class="col-3c"></div>
             </div>
         </div>
     </main>
